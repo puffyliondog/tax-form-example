@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024 Individual Tax Return Form</title>
+</head>
+<body>
+    <h1>2024 Individual Tax Return Checklist</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="given-name">Given Name(s):</label>
+            <input type="text" id="given-name" name="given-name" required><br>
+
+            <label for="family-name">Family Name:</label>
+            <input type="text" id="family-name" name="family-name" required><br>
+
+            <label for="residential-address">Residential Address:</label>
+            <input type="text" id="residential-address" name="residential-address" required><br>
+
+            <label for="visa">Visa (if applicable):</label>
+            <input type="text" id="visa" name="visa"><br>
+
+            <label for="suburb">Suburb:</label>
+            <input type="text" id="suburb" name="suburb" required><br>
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required><br>
+
+            <label for="postcode">Postcode:</label>
+            <input type="text" id="postcode" name="postcode" required><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>
+
+            <label for="phone">Contact Phone Number:</label>
+            <input type="text" id="phone" name="phone" required><br>
+
+            <label for="tfn">Tax File Number:</label>
+            <input type="text" id="tfn" name="tfn" required><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Banking Details</legend>
+            <label for="account-name">Account Name:</label>
+            <input type="text" id="account-name" name="account-name" required><br>
+
+            <label for="bsb">BSB Number:</label>
+            <input type="text" id="bsb" name="bsb" required><br>
+
+            <label for="account-number">Account Number:</label>
+            <input type="text" id="account-number" name="account-number" required><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Spouse Details</legend>
+            <label for="spouse-tfn">Tax File Number:</label>
+            <input type="text" id="spouse-tfn" name="spouse-tfn"><br>
+
+            <label for="spouse-dob">Date of Birth:</label>
+            <input type="date" id="spouse-dob" name="spouse-dob"><br>
+
+            <label for="spouse-name">Given Name(s):</label>
+            <input type="text" id="spouse-name" name="spouse-name"><br>
+
+            <label for="spouse-family-name">Family Name:</label>
+            <input type="text" id="spouse-family-name" name="spouse-family-name"><br>
+
+            <label for="spouse-income">Adjusted Taxable Income:</label>
+            <input type="text" id="spouse-income" name="spouse-income"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dependent Children</legend>
+            <label for="child-name">Given Name(s):</label>
+            <input type="text" id="child-name" name="child-name"><br>
+
+            <label for="child-family-name">Family Name:</label>
+            <input type="text" id="child-family-name" name="child-family-name"><br>
+
+            <label for="child-dob">Date of Birth:</label>
+            <input type="date" id="child-dob" name="child-dob"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Private Health Insurance</legend>
+            <label>Did you have private health insurance during the 2024 financial year?</label><br>
+            <input type="radio" id="health-yes" name="private-health" value="yes">
+            <label for="health-yes">Yes</label><br>
+            <input type="radio" id="health-no" name="private-health" value="no">
+            <label for="health-no">No</label><br>
+        </fieldset>
+
+        <!-- Additional fields can be added here following the same format -->
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
